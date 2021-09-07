@@ -18,8 +18,8 @@ job:
       -name: Setup Hugo 
        uses: peaceiris/actions-hugo@v2
        with: 
-       hugo-version: 'lastest'
-       extended: true
+        hugo-version: 'lastest'
+        extended: true
 
 
       -name: Build
